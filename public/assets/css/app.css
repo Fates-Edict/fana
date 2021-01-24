@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: 'poppins';
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none !important;
+}
+
+/**
+ * ==================================================================
+ * ROOT UNTUK WARNA
+ * ================================================================== 
+ */
+
+:root {
+    --biru: #0092ff;
+    --biru-terang: #00b3ff;
+    --biruu: #0A6BBD;
+}
+
+/**
+ * ==================================================================
+ * BUTTON
+ * ==================================================================  
+ */
+
+/**  
+ * ==================================================================
+ * NAVBAR
+ * ==================================================================
+ */
+.navbar-nav {
+    font-size: .87rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000000ad !important;
+    transition: color .19s;
+    cursor: default;
+}
+
+.nav-link:hover {
+    color: var(--biru) !important;
+}
+
+.jumbotron-text {
+    color: #000000ad;
+    font-size: 2rem;
+}
+
+.bg-abu {
+    background: #e9e8e87e;
+}
+
+footer {
+    min-height: 100vh;
+    background: var(--biruu);
+    color: #ffffff;
+}
